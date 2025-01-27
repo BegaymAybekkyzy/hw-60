@@ -4,3 +4,8 @@ export interface IMessage {
   message: string;
   _id: string;
 }
+
+export interface IUserMessage {
+  author: string;
+  message: string;
+}
