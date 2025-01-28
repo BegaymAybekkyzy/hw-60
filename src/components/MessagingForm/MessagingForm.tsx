@@ -28,7 +28,9 @@ const MessagingForm: React.FC<Props> = ({ messageSending }) => {
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
         <Form.Label>Name</Form.Label>
         <Form.Control
-          onChange={(event) => setUser({ ...user, author: event.target.value })}
+          onChange={(event) =>
+            setUser({ ...user, author: event.target.value }
+            )}
           type="text"
           value={user.author}
           placeholder="Enter your name"

@@ -57,7 +57,7 @@ const App = () => {
 
   return (
     <>
-      <div className="">
+      <div>
         <div className="container py-3">
           <MessagingForm messageSending={messageSending} />
         </div>
